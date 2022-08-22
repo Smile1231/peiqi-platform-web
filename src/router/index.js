@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '../components/Login.vue'
 import axios from 'axios'
-
-import GeneIndex from '../components/gene/GeneIndex.vue'
-
+import Home from '../components/peiqi/Home.vue'
 
 //接口基础地址
 // axios.defaults.baseURL = 'http://www.ysqorz.top:8888/api/private/v1/'
@@ -36,12 +34,12 @@ const routes = [
   },
   {
     path: '/login',
-    component: GeneIndex
+    component: Login
   },
   {
-    path: '/geneIndex',
-    component: GeneIndex
-  },
+    path: '/home',
+    component: Home
+  }
 ]
 
 const router = new VueRouter({

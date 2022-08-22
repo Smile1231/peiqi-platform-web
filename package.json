@@ -1,5 +1,5 @@
 {
-  "name": "Gene_cut",
+  "name": "Peiqi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "codemirror": "^5.61.1",
     "core-js": "^3.6.5",
     "echarts": "^5.0.2",
     "element-ui": "^2.4.5",
+    "js-yaml": "^4.1.0",
     "miniprogram-api-typings": "^2.4.1",
     "qs": "^6.10.3",
     "vue": "^2.6.11",

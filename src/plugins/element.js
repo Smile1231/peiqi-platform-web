@@ -34,6 +34,10 @@ import {Form
     ,DatePicker
     ,Select
     ,Option
+    ,CheckboxGroup
+    ,CheckboxButton
+    ,Autocomplete
+    ,Radio
 } from 'element-ui'
 import {Input}  from 'element-ui'
 //导入消息提示
@@ -74,6 +78,10 @@ Vue.use(Image)
 Vue.use(DatePicker)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(CheckboxGroup)
+Vue.use(CheckboxButton)
+Vue.use(Autocomplete)
+Vue.use(Radio)
 
 //挂载消息
 Vue.prototype.$message = Message

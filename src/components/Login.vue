@@ -74,7 +74,7 @@ export default {
                 //         that.$router.push('/home');                                        
                 // });
                 window.sessionStorage.setItem('token',"abcdefghijklmnopqrstuvwxyz");
-                that.$router.push('/geneIndex'); 
+                that.$router.push('/home'); 
             }
         }
 }
